@@ -13,7 +13,7 @@ oAuth2Client.setCredentials({refresh_token:process.env.REFRESH_TOKEN})
       service: 'gmail',
       auth: {
         type: 'OAuth2',
-        user: 'ayurvedam4youbusiness@gmail.com',
+        user: 'sanjaydeveloper919@gmail.com',
         clientId: process.env.CLIENT_ID,
         clientSecret: process.env.CLIENT_SECRET,
         refreshToken: process.env.REFRESH_TOKEN,
@@ -22,7 +22,7 @@ oAuth2Client.setCredentials({refresh_token:process.env.REFRESH_TOKEN})
     });
 
     const mailOptions = {
-      from: 'Admin <ayurvedam4youbusiness@gmail.com>',
+      from: 'Admin <sanjaydeveloper919@gmail.com>',
       to,
       subject,
       text,
